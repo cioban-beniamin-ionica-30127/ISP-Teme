@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>isp.lab5.exercise3</OriginalElement>
+  <nodes>
+    <node x="256.5" y="124.0">isp.lab5.exercise3.BlackAndWhiteVideo</node>
+    <node x="10.5" y="112.0">isp.lab5.exercise3.ColorVideo</node>
+    <node x="121.22368421052632" y="273.0">isp.lab5.exercise3.ProxyVideo</node>
+    <node x="133.75438596491227" y="0.0">isp.lab5.exercise3.Playable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="isp.lab5.exercise3.ProxyVideo" target="isp.lab5.exercise3.Playable" relationship="REALIZATION">
+      <point x="86.66666666666669" y="-42.5" />
+      <point x="337.890350877193" y="252.0" />
+      <point x="512.0" y="252.0" />
+      <point x="512.0" y="91.0" />
+      <point x="379.0" y="91.0" />
+      <point x="379.0" y="81.0" />
+      <point x="226.00438596491227" y="81.0" />
+      <point x="30.75" y="30.0" />
+    </edge>
+    <edge source="isp.lab5.exercise3.ColorVideo" target="isp.lab5.exercise3.Playable" relationship="REALIZATION">
+      <point x="0.0" y="-54.5" />
+      <point x="123.5" y="91.0" />
+      <point x="379.0" y="91.0" />
+      <point x="379.0" y="81.0" />
+      <point x="226.00438596491227" y="81.0" />
+      <point x="30.75" y="30.0" />
+    </edge>
+    <edge source="isp.lab5.exercise3.ProxyVideo" target="isp.lab5.exercise3.BlackAndWhiteVideo" relationship="CREATE">
+      <point x="0.0" y="-42.5" />
+      <point x="251.2236842105263" y="242.0" />
+      <point x="379.0" y="242.0" />
+      <point x="0.0" y="42.5" />
+    </edge>
+    <edge source="isp.lab5.exercise3.BlackAndWhiteVideo" target="isp.lab5.exercise3.Playable" relationship="REALIZATION">
+      <point x="0.0" y="-42.5" />
+      <point x="379.0" y="81.0" />
+      <point x="226.00438596491227" y="81.0" />
+      <point x="30.75" y="30.0" />
+    </edge>
+    <edge source="isp.lab5.exercise3.ProxyVideo" target="isp.lab5.exercise3.ColorVideo" relationship="CREATE">
+      <point x="0.0" y="-42.5" />
+      <point x="251.2236842105263" y="242.0" />
+      <point x="123.5" y="242.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="isp.lab5.exercise3.ProxyVideo" target="isp.lab5.exercise3.Playable" relationship="TO_ONE">
+      <point x="-86.66666666666669" y="-42.5" />
+      <point x="164.55701754385962" y="252.0" />
+      <point x="0.0" y="252.0" />
+      <point x="0.0" y="81.0" />
+      <point x="164.50438596491227" y="81.0" />
+      <point x="-30.75" y="30.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="256.0" y="179.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
